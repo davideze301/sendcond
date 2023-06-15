@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Conditional</title>
+	</head>
+	<body>
+		<p id="gradea"></p>
+		<p id="gradeb"></p>
+		<p id="gradec"></p>
+		<p id="graded"></p>
+		<p id="gradee"></p>
+		<p id="gradef"></p>
+		<p id="error"style></p>
+		<script>
+			function all() {
+		
+			
+			let score=120;
+			if(score >=70 && score<=100){
+				document.getElementById("gradea").innerHTML="GRADE A";
+				console.log("A")
+			}else if(score >=60 && score<=70){
+				document.getElementById("gradeb").innerHTML="GRADE B";
+				console.log("B")
+			}else if (score >=50 && score<=60){
+				document.getElementById("gradec").innerHTML="GRADE C";
+				console.log("C")
+			}else if (score >=45 && score<=50){
+				document.getElementById("graded").innerHTML="GRADE D";
+				console.log("D")
+			}else if (score >=40 && score<=45){
+				document.getElementById("gradee").innerHTML="GRADE E";
+				console.log("E")
+			}else if (score >=0 && score<=40){
+				document.getElementById("gradef").innerHTML="GRADE F";
+				console.log("F")
+			}
+			else{
+				document.getElementById("error").innerHTML="ERROR";
+				console.log("ERROR")
+			}
+		}
+			all()
+
+
+			
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</script>
+	
+	</body>
+	</html>
